@@ -1,0 +1,13 @@
+
+th, td { /*targets all Table Headers (<th>) and Table Data cells (<td>)*/
+    text-align: center; /*centers the text horizontally inside every table cell*/
+    vertical-align: middle; /*centers the content vertically (top-to-bottom) within each cell*/
+    padding: 8px; /*creates an 8-pixel invisible cushion/space inside each cell so the content doesn't touch the borders*/
+}
+
+td ul { /*targets any Unordered List (<ul>, like a bulleted list) placed inside a table cell.*/
+    display: inline-block; /*shrinks the list container to fit tightly around the bullet points rather than taking up the full width of the cell*/
+    text-align: left; /*forces the text and bullets inside the list to align to the left, keeping bullet points neatly aligned vertically*/
+    margin: 0 auto; /*automatically calculates left and right margins to keep that left-aligned list perfectly centered as a block inside the table cell*/
+}
+
